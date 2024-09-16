@@ -49,15 +49,13 @@ namespace CertificateService.Controllers
         }
 
         [HttpPost]
-        public ActionResult<Certificate> CreatCertificate(CertificateCreateDtos certificateCreate)
+        public ActionResult<Certificate> CreateCertificate(CertificateCreateDtos certificateCreate)
         {
             var certificate = _maper.Map<Certificate>(certificateCreate);
             _repository.CreateCertificate(certificate);
             _repository.SaveChenges();
             var certificateReadDto = _maper.Map<CertificateReadDto>(certificate);
             return CreatedAtRoute(nameof(GetCertificateById), new { id = certificateReadDto.Id }, certificateReadDto);
-            return Ok();
-
         }
     }
 }
