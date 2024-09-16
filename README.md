@@ -22,4 +22,6 @@ CertificateService is a microservice designed to manage certificates and their a
 
    ```bash
    git clone https://github.com/yourusername/CertificateService.git
-   cd CertificateService
+   cd CertificateServices 
+## porpuse 
+   the pro
