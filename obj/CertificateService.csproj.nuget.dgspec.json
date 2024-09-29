@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/javad/Desktop/file/dev/repo/personal/CertificateHub/CertificateService/CertificateService.csproj": {}
+    "/Users/javad/Desktop/file/dev/repo/personal/Certificate/CertificateHub/CertificateService/CertificateService.csproj": {}
   },
   "projects": {
-    "/Users/javad/Desktop/file/dev/repo/personal/CertificateHub/CertificateService/CertificateService.csproj": {
+    "/Users/javad/Desktop/file/dev/repo/personal/Certificate/CertificateHub/CertificateService/CertificateService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/javad/Desktop/file/dev/repo/personal/CertificateHub/CertificateService/CertificateService.csproj",
+        "projectUniqueName": "/Users/javad/Desktop/file/dev/repo/personal/Certificate/CertificateHub/CertificateService/CertificateService.csproj",
         "projectName": "CertificateService",
-        "projectPath": "/Users/javad/Desktop/file/dev/repo/personal/CertificateHub/CertificateService/CertificateService.csproj",
+        "projectPath": "/Users/javad/Desktop/file/dev/repo/personal/Certificate/CertificateHub/CertificateService/CertificateService.csproj",
         "packagesPath": "/Users/javad/.nuget/packages/",
-        "outputPath": "/Users/javad/Desktop/file/dev/repo/personal/CertificateHub/CertificateService/obj/",
+        "outputPath": "/Users/javad/Desktop/file/dev/repo/personal/Certificate/CertificateHub/CertificateService/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/javad/.nuget/NuGet/NuGet.Config"

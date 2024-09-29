@@ -5,16 +5,16 @@ using CertificateService.Data;
 using CertificateService.Models;
 using CertificateService.Dtos;
 
-namespace CertificateService.Controllers
+namespace CertificatesService.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class CertificateController : ControllerBase
+    public class CertificatesController : ControllerBase
     {
 
         private readonly IMapper _maper;
         private readonly ICertificateRepo _repository;
-        public CertificateController(ICertificateRepo repository, IMapper maper)
+        public CertificatesController(ICertificateRepo repository, IMapper maper)
         {
             _maper = maper;
             _repository = repository;
